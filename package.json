@@ -3,13 +3,23 @@
   "version": "1.0.0",
   "description": "Simple Collection of check function",
   "main": "./lib/check.js",
+  "types": "./lib/check.d.ts",
+  "repository": {
+    "url": "https://github.com/TsPowerOne/Check.git"
+  },
   "directories": {
     "doc": "docs",
     "lib": "lib",
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "setup": "npm install",
+    "build": "tsc",
+    "build-watch": "tsc --watch",
+    "test-only": "mocha --require ts-node/register test/**/*.ts",
+    "pretest": "npm run build",
+    "test": "npm run test-only",
+    "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json "
   },
   "keywords": [
     "check",
@@ -25,5 +35,8 @@
     "ts-node": "^7.0.1",
     "typedoc": "^0.12.0",
     "typescript": "^3.1.1"
+  },
+  "dependencies": {
+    "@tspower/regexpr": "^1.0.1"
   }
 }
