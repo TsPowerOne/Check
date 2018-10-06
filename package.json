@@ -5,7 +5,7 @@
   "main": "./lib/check.js",
   "types": "./lib/check.d.ts",
   "repository": {
-    "url": "https://github.com/TsPowerOne/Check.git"
+    "url": "git+https://github.com/TsPowerOne/Check.git"
   },
   "directories": {
     "doc": "docs",
@@ -38,5 +38,9 @@
   },
   "dependencies": {
     "@tspower/regexpr": "^1.0.1"
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/TsPowerOne/Check/issues"
+  },
+  "homepage": "https://github.com/TsPowerOne/Check#readme"
 }
