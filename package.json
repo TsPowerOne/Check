@@ -1,9 +1,10 @@
 {
   "name": "@tspower/check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Collection of check function",
   "main": "./lib/check.js",
   "types": "./lib/check.d.ts",
+  
   "repository": {
     "url": "git+https://github.com/TsPowerOne/Check.git"
   },
@@ -42,5 +43,5 @@
   "bugs": {
     "url": "https://github.com/TsPowerOne/Check/issues"
   },
-  "homepage": "https://github.com/TsPowerOne/Check#readme"
+  "homepage": "https://tspowerone.github.io/Check/"
 }
