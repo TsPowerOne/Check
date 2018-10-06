@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "declaration": true,
+      "outDir": "./lib",
+      "strict": true,
+      "noImplicitAny": false
+    },
+    "files": [
+      "src/check.ts"
+    ],
+    "exclude":[
+      "./test/**/*.spec.ts"
+    ]
+  }
