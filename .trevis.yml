@@ -1,20 +1,4 @@
 language: node_js
 node_js:
-<<<<<<< HEAD
  - "node"
  
-=======
-- "stable"
-before_deploy: "echo 'ready?'"
-deploy:
-  provider: npm
-  email: "luigisenzamici@gmail.com"
-  api_key: $NPM_TOKEN
-  skip_cleanup: true
-notifications:
-  email:
-    recipients:
-    - luigisenzamici@gmail.com
-    on_success: change
-    on_failure: always
->>>>>>> c8056df28cff1ee0b55983a3a037a1004649a007
