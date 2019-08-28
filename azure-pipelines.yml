@@ -19,14 +19,3 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
-
-- task: Npm@0
-  inputs:
-    command: npm version patch
-  displayName: "version update"
-- task: Npm@1
-  inputs:
-    command: publish
-    publishRegistry: useExternalRegistry
-    publishEndpoint: https://registry.npmjs.com/
-  displayName: 'publishing package'
