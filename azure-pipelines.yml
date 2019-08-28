@@ -20,6 +20,13 @@ steps:
     npm run build
   displayName: 'npm install and build'
   
+- task: Npm@1
+  inputs:
+    command: 'custom'
+    workingDir: '/'
+    customCommand: 'version patch'
+    customEndpoint: 'npm registry'
+  displayName: 'version update'
 
 - task: Npm@1
   inputs:
