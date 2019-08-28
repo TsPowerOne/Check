@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: npm
   email: "luigisenzamici@gmail.com"
-  api_key: "52623aa8-f865-4256-9ced-c3124813d65d"
+  api_key: $NPM_TOKEN
 notifications:
   email:
     recipients:
