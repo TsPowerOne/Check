@@ -23,7 +23,7 @@ steps:
 - task: Npm@1
   inputs:
     command: 'custom'
-    workingDir: '/'
+    workingDir: '/home/vsts/work/1/s'
     customCommand: 'version patch'
     customEndpoint: 'npm registry'
   displayName: 'version update'
