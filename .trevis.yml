@@ -1,4 +1,7 @@
 language: node_js
 node_js:
  - node
+ install:
+  - git clone --depth=50 --branch=master https://github.com/TsPowerOne/Check.git Check
+  - cd Check
  
