@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/TsPowerOne/Check/issues"
   },
-  "homepage": "https://tspowerone.github.io/Check/"
+  "homepage": "https://tspowerone.github.io/Check/",
+  "publishConfig": {
+    "access": "public"
+  }
 }
