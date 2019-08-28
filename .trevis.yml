@@ -1,13 +1,4 @@
 language: node_js
 node_js:
-- "stable"
-deploy:
-  provider: npm
-  email: "luigisenzamici@gmail.com"
-  api_key: "52623aa8-f865-4256-9ced-c3124813d65d"
-notifications:
-  email:
-    recipients:
-    - luigisenzamici@gmail.com
-    on_success: change
-    on_failure: always
+ - "node"
+ 
