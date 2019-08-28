@@ -6,7 +6,7 @@ before_install
 deploy:
   provider: npm
   email: luigisenzamici@gmail.com
-  api_key: $NPM_TOKEN
+  api_key: NPM_TOKEN
   on:
     tags: true
 
