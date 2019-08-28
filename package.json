@@ -1,6 +1,6 @@
 {
   "name": "@tspower/check",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Collection of checks functions",
   "main": "./lib/check.js",
   "types": "./lib/check.d.ts",
@@ -13,7 +13,7 @@
     "test": "test"
   },
   "scripts": {
-    "setup": "npm install",
+    "start": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
     "test-only": "mocha --require ts-node/register test/**/*.ts",
@@ -42,5 +42,8 @@
   "bugs": {
     "url": "https://github.com/TsPowerOne/Check/issues"
   },
-  "homepage": "https://tspowerone.github.io/Check/"
+  "homepage": "https://tspowerone.github.io/Check/",
+  "publishConfig": {
+    "access": "public"
+  }
 }
