@@ -20,9 +20,6 @@ steps:
     npm run build
   displayName: 'npm install and build'
   
-- script: |
-    npm version patch
-  displayName: 'version update'
 
 - task: Npm@1
   inputs:
