@@ -13,7 +13,7 @@
     "test": "test"
   },
   "scripts": {
-    "setup": "npm install",
+    "start": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
     "test-only": "mocha --require ts-node/register test/**/*.ts",
