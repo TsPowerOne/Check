@@ -1,0 +1,18 @@
+language: node_js
+node_js:
+- "9"
+before_install
+- printf "@tspower:registry=https://registry.tspower.com/\n//registry.tspower.com/:_authToken=${NPM_TOKEN}" >> ~/.npmrc
+deploy:
+  provider: npm
+  email: luigisenzamici@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
+
+notifications:
+  email:
+    recipients:
+    - luigisenzamici@gmail.com
+    on_success: change
+    on_failure: always
