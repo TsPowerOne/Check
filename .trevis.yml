@@ -1,14 +1,10 @@
 language: node_js
 node_js:
 - "stable"
-before_script:
-- npm install -g nodeunit
-script: nodeunit
 deploy:
   provider: npm
   email: "luigisenzamici@gmail.com"
   api_key: "52623aa8-f865-4256-9ced-c3124813d65d"
-
 notifications:
   email:
     recipients:
