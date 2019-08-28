@@ -20,14 +20,8 @@ steps:
     npm run build
   displayName: 'npm install and build'
   
-- task: Npm@0
-  inputs:
-    command: 'custom'
-    customCommand: 'npm version patch'
-    customEndpoint: 'npm registry'
 
 - task: Npm@1
   inputs:
-    command: 'custom'
-    customCommand: 'npm publish --access public'
-    customEndpoint: 'npm registry'
+    command: 'publish'
+    publishEndpoint: 'npm registry'
