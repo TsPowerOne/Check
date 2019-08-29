@@ -19,9 +19,9 @@ isItalianMobilePhoneNumber(value: any): boolean;
 
 
 ## Author
-Luigi Senzamici 
-Email: luigisenzamici@gmail.com 
-[Pegaso Professional](https://pegasoprofessional.com)
+Luigi Senzamici   
+Email: luigisenzamici@gmail.com   
+[Pegaso Professional](https://pegasoprofessional.com)   
 
 ## License
 MIT License  
