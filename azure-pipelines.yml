@@ -31,6 +31,10 @@ steps:
     testResultsFiles: '**/test-*.xml'
     failTaskOnFailedTests: true
     
+- script: |
+    npm version patch
+  displayName: 'npm version update'
+  
 - task: Npm@1
   inputs:
     command: 'publish'
