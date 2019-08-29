@@ -1,8 +1,9 @@
-# Check
+# Check        ![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
 
 ![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
 
 > Simple Collection of checks functions!
+
 
 ## Methods
 isEmpty(value: any): boolean;  
@@ -20,7 +21,9 @@ isItalianMobilePhoneNumber(value: any): boolean;
 
 
 ## Author
-Luigi Senzamici (luigisenzamici@gmail.com) [Pegaso Professional]
+Luigi Senzamici   
+Email: luigisenzamici@gmail.com   
+[Pegaso Professional](https://pegasoprofessional.com)   
 
 ## License
 MIT License  
