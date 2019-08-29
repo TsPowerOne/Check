@@ -24,11 +24,13 @@ steps:
     npm run test
   displayName: 'npm testing'
   continueOnError: true
+
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
     testResultsFiles: '**/TEST-*.xml'
-    failTaskOnFailedTests: true
+    failedTaskOnFailedTest: true
+    
 - task: Npm@1
   inputs:
     command: 'publish'
