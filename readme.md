@@ -2,6 +2,8 @@
 
 > Simple Collection of checks functions!
 
+![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
+
 ## Methods
 isEmpty(value: any): boolean;  
 notEmpty(value: any): boolean;  
