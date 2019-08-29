@@ -28,8 +28,8 @@ steps:
 - task: PublishTestResults@2
   inputs:
     testResultsFormat: 'JUnit'
-    testResultsFiles: '**/TEST-*.xml'
-    failedTaskOnFailedTest: true
+    testResultsFiles: '**/test-*.xml'
+    failTaskOnFailedTests: true
     
 - task: Npm@1
   inputs:
