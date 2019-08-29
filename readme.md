@@ -1,4 +1,4 @@
-# Check [![Build Status](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)](https://ppbusinessproject.visualstudio.com/TSPowerOne/_build/latest?definitionId=8&branchName=master) ![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
+# Check        ![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
 
 > Simple Collection of checks functions!
 
