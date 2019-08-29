@@ -16,7 +16,7 @@
     "start": "npm install",
     "build": "tsc",
     "build-watch": "tsc --watch",
-    "test-only": "mocha --require ts-node/register test/**/*.ts",
+    "test-only": "mocha --require ts-node/register test/**/*.ts --reporter mocha-junit-reporter",
     "pretest": "npm run build",
     "test": "npm run test-only",
     "typedoc": "typedoc --out ./docs --mode modules --tsconfig ./tsconfig.json "

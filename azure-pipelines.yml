@@ -22,8 +22,7 @@ steps:
 
 - script: |
     npm run test
-  displayName: 'npm testing'
-  
+  displayName: 'npm testing'  
 
 - task: Npm@1
   inputs:
