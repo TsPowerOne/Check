@@ -53,17 +53,17 @@ describe('isInteger function', () => {
   });
 });
 
-// describe('isFloat function', () => {
+describe('isFloat function', () => {
   
-//   floatValue.forEach(e=>{
-//     it(`if ${e} should return true`, () => {
-//       expect(isFloat(e)).to.equal(true);
-//     });
-//   });
+  floatValue.forEach(e=>{
+    it(`if ${e} should return true`, () => {
+      expect(isFloat(e)).to.equal(true);
+    });
+  });
   
-//   notFloatValue.forEach(e=>{
-//     it(`if ${e} should return false`, () => {
-//       expect(isFloat(e)).to.equal(false);
-//     });
-//   });
-// });
+  notFloatValue.forEach(e=>{
+    it(`if ${e} should return false`, () => {
+      expect(isFloat(e)).to.equal(false);
+    });
+  });
+});
