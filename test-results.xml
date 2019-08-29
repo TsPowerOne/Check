@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.002" tests="34" failures="0">
-  <testsuite name="Root Suite" timestamp="2019-08-29T12:00:03" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.003" tests="34" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-29T12:05:53" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="IsEmpty function" timestamp="2019-08-29T12:00:03" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0.002">
+  <testsuite name="IsEmpty function" timestamp="2019-08-29T12:05:53" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0.001">
     <testcase name="IsEmpty function if null should return true" time="0.001" classname="if null should return true">
     </testcase>
     <testcase name="IsEmpty function if undefined should return true" time="0" classname="if undefined should return true">
@@ -15,14 +15,14 @@
     </testcase>
     <testcase name="IsEmpty function if 123 should return false" time="0" classname="if 123 should return false">
     </testcase>
-    <testcase name="IsEmpty function if 0 should return false" time="0.001" classname="if 0 should return false">
+    <testcase name="IsEmpty function if 0 should return false" time="0" classname="if 0 should return false">
     </testcase>
     <testcase name="IsEmpty function if false should return false" time="0" classname="if false should return false">
     </testcase>
     <testcase name="IsEmpty function if true should return false" time="0" classname="if true should return false">
     </testcase>
   </testsuite>
-  <testsuite name="notEmpty function" timestamp="2019-08-29T12:00:03" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
+  <testsuite name="notEmpty function" timestamp="2019-08-29T12:05:53" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
     <testcase name="notEmpty function if null should return true" time="0" classname="if null should return true">
     </testcase>
     <testcase name="notEmpty function if undefined should return true" time="0" classname="if undefined should return true">
@@ -42,7 +42,7 @@
     <testcase name="notEmpty function if true should return false" time="0" classname="if true should return false">
     </testcase>
   </testsuite>
-  <testsuite name="isInteger function" timestamp="2019-08-29T12:00:03" tests="16" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
+  <testsuite name="isInteger function" timestamp="2019-08-29T12:05:53" tests="16" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0.002">
     <testcase name="isInteger function if 0 should return true" time="0" classname="if 0 should return true">
     </testcase>
     <testcase name="isInteger function if 1 should return true" time="0" classname="if 1 should return true">
@@ -55,7 +55,7 @@
     </testcase>
     <testcase name="isInteger function if 1000 should return true" time="0" classname="if 1000 should return true">
     </testcase>
-    <testcase name="isInteger function if 0.5 should return false" time="0" classname="if 0.5 should return false">
+    <testcase name="isInteger function if 0.5 should return false" time="0.001" classname="if 0.5 should return false">
     </testcase>
     <testcase name="isInteger function if 12.3 should return false" time="0" classname="if 12.3 should return false">
     </testcase>
@@ -71,7 +71,7 @@
     </testcase>
     <testcase name="isInteger function if 1.text should return false" time="0" classname="if 1.text should return false">
     </testcase>
-    <testcase name="isInteger function if 1.text should return false" time="0" classname="if 1.text should return false">
+    <testcase name="isInteger function if 1.text should return false" time="0.001" classname="if 1.text should return false">
     </testcase>
     <testcase name="isInteger function if 333/2222 should return false" time="0" classname="if 333/2222 should return false">
     </testcase>
