@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.003" tests="55" failures="9">
-  <testsuite name="Root Suite" timestamp="2019-08-29T11:35:32" tests="0" failures="0" time="0">
+<testsuites name="Mocha Tests" time="0.002" tests="34" failures="0">
+  <testsuite name="Root Suite" timestamp="2019-08-29T12:00:03" tests="0" failures="0" time="0">
   </testsuite>
-  <testsuite name="IsEmpty function" timestamp="2019-08-29T11:35:32" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0.002">
+  <testsuite name="IsEmpty function" timestamp="2019-08-29T12:00:03" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0.002">
     <testcase name="IsEmpty function if null should return true" time="0.001" classname="if null should return true">
     </testcase>
-    <testcase name="IsEmpty function if undefined should return true" time="0.001" classname="if undefined should return true">
+    <testcase name="IsEmpty function if undefined should return true" time="0" classname="if undefined should return true">
     </testcase>
     <testcase name="IsEmpty function if  should return true" time="0" classname="if  should return true">
     </testcase>
@@ -15,14 +15,14 @@
     </testcase>
     <testcase name="IsEmpty function if 123 should return false" time="0" classname="if 123 should return false">
     </testcase>
-    <testcase name="IsEmpty function if 0 should return false" time="0" classname="if 0 should return false">
+    <testcase name="IsEmpty function if 0 should return false" time="0.001" classname="if 0 should return false">
     </testcase>
     <testcase name="IsEmpty function if false should return false" time="0" classname="if false should return false">
     </testcase>
     <testcase name="IsEmpty function if true should return false" time="0" classname="if true should return false">
     </testcase>
   </testsuite>
-  <testsuite name="notEmpty function" timestamp="2019-08-29T11:35:32" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
+  <testsuite name="notEmpty function" timestamp="2019-08-29T12:00:03" tests="9" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
     <testcase name="notEmpty function if null should return true" time="0" classname="if null should return true">
     </testcase>
     <testcase name="notEmpty function if undefined should return true" time="0" classname="if undefined should return true">
@@ -42,7 +42,7 @@
     <testcase name="notEmpty function if true should return false" time="0" classname="if true should return false">
     </testcase>
   </testsuite>
-  <testsuite name="isInteger function" timestamp="2019-08-29T11:35:32" tests="16" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
+  <testsuite name="isInteger function" timestamp="2019-08-29T12:00:03" tests="16" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="0" time="0">
     <testcase name="isInteger function if 0 should return true" time="0" classname="if 0 should return true">
     </testcase>
     <testcase name="isInteger function if 1 should return true" time="0" classname="if 1 should return true">
@@ -74,68 +74,6 @@
     <testcase name="isInteger function if 1.text should return false" time="0" classname="if 1.text should return false">
     </testcase>
     <testcase name="isInteger function if 333/2222 should return false" time="0" classname="if 333/2222 should return false">
-    </testcase>
-  </testsuite>
-  <testsuite name="isFloat function" timestamp="2019-08-29T11:35:32" tests="21" file="C:\Users\senzamicil\source\repos\Check\test\test.spec.ts" failures="9" time="0.001">
-    <testcase name="isFloat function if -0.2 should return true" time="0" classname="if -0.2 should return true">
-    </testcase>
-    <testcase name="isFloat function if 0.1 should return true" time="0" classname="if 0.1 should return true">
-    </testcase>
-    <testcase name="isFloat function if 123.1123 should return true" time="0" classname="if 123.1123 should return true">
-    </testcase>
-    <testcase name="isFloat function if -0.2 should return true" time="0" classname="if -0.2 should return true">
-    </testcase>
-    <testcase name="isFloat function if 0.1 should return true" time="0" classname="if 0.1 should return true">
-    </testcase>
-    <testcase name="isFloat function if 123.1123 should return true" time="0" classname="if 123.1123 should return true">
-    </testcase>
-    <testcase name="isFloat function if 0 should return false" time="0.001" classname="if 0 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 1 should return false" time="0" classname="if 1 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 1000 should return false" time="0" classname="if 1000 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 0 should return false" time="0" classname="if 0 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 1 should return false" time="0" classname="if 1 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 1000 should return false" time="0" classname="if 1000 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if null should return false" time="0" classname="if null should return false">
-    </testcase>
-    <testcase name="isFloat function if undefined should return false" time="0" classname="if undefined should return false">
-    </testcase>
-    <testcase name="isFloat function if  should return false" time="0" classname="if  should return false">
-    </testcase>
-    <testcase name="isFloat function if   should return false" time="0" classname="if   should return false">
-    </testcase>
-    <testcase name="isFloat function if 0 should return false" time="0" classname="if 0 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 123 should return false" time="0" classname="if 123 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if 0 should return false" time="0" classname="if 0 should return false">
-      <failure message="expected true to equal false" type="AssertionError"><![CDATA[AssertionError: expected true to equal false
-    at Context.<anonymous> (test\test.spec.ts:66:29)]]></failure>
-    </testcase>
-    <testcase name="isFloat function if false should return false" time="0" classname="if false should return false">
-    </testcase>
-    <testcase name="isFloat function if true should return false" time="0" classname="if true should return false">
     </testcase>
   </testsuite>
 </testsuites>

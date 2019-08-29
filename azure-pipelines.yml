@@ -22,8 +22,23 @@ steps:
 
 - script: |
     npm run test
+<<<<<<< HEAD
   displayName: 'npm testing'  
+=======
+  displayName: 'npm testing'
+  continueOnError: true
+>>>>>>> 49623b377b0bc1d64b800a448cecb9a65ae1a644
 
+- task: PublishTestResults@2
+  inputs:
+    testResultsFormat: 'JUnit'
+    testResultsFiles: '**/test-*.xml'
+    failTaskOnFailedTests: true
+    
+- script: |
+    npm version patch
+  displayName: 'npm version update'
+  
 - task: Npm@1
   inputs:
     command: 'publish'
