@@ -6,7 +6,7 @@ let notEmptyValue = [" ", 0, 123, "0", false, true];
 let integerValue = [0, 1, 1000, "0", "1", "1000"];
 let notIntegerValue = [0.5, 12.3, "0.5", "12.3", true, false, "text", "1.text", "1.text", "333/2222"];
 let floatValue = [ -0.2, 0.1, 123.1123, "-0.2", "0.1", "123.1123"];
-let notFloatValue = [ ...integerValue, ...nullEmpty, ...notEmptyValue];
+let notFloatValue = [ ...nullEmpty, false, true, "1.text", "333/333"];
 
 describe('IsEmpty function', () => {
     nullEmpty.forEach(e=>{

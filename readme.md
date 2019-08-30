@@ -26,7 +26,6 @@ Email: luigisenzamici@gmail.com
 [Pegaso Professional](https://pegasoprofessional.com)   
 
 ## License
-MIT License  
-[MIT](http://opensource.org/licenses/MIT)
+[MIT License](http://opensource.org/licenses/MIT)
 
 

@@ -4,6 +4,7 @@
 */
 import {integer, float, cap, email, genericPhoneNumber, italianMobilePhone} from '@tspower/regexpr';
 
+
 /**
 * isEmpty
 * @param value  value to test
