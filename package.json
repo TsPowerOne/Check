@@ -1,6 +1,6 @@
 {
   "name": "@tspower/check",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Simple Collection of checks functions",
   "main": "./lib/check.js",
   "types": "./lib/check.d.ts",
