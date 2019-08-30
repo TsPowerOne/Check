@@ -39,7 +39,7 @@
     "typescript": "^3.6.2"
   },
   "dependencies": {
-    "@tspower/regexpr": "^1.1.0"
+    "@tspower/regexpr": "^1.2.0"
   },
   "bugs": {
     "url": "https://github.com/TsPowerOne/Check/issues"

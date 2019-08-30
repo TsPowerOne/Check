@@ -4,16 +4,16 @@
 > Simple Collection of checks functions!
 
 
-## Methods
-isEmpty(value: any): boolean;  
-notEmpty(value: any): boolean;  
-isInteger(value: any): boolean;  
-isFloat(value: any): boolean;  
-isNegative(value: any): boolean;  
-isItalianZipCode(value: any): boolean;  
-isEmail(value: any): boolean;  
-isGenericPhoneNumber(value: any): boolean;  
-isItalianMobilePhoneNumber(value: any): boolean;
+## Methods Available
+1 - isEmpty(value: any): boolean;  
+2 - notEmpty(value: any): boolean;  
+3 - isInteger(value: any): boolean;  
+4 - isFloat(value: any): boolean;  
+5 - isNegative(value: any): boolean;  
+6 - isItalianZipCode(value: any): boolean;  
+7 - isEmail(value: any): boolean;  
+8 - isGenericPhoneNumber(value: any): boolean;  
+9 - isItalianMobilePhoneNumber(value: any): boolean;
 
 ## Install
 `npm i @tspower/check`

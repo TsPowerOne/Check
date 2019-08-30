@@ -2,7 +2,7 @@
 * Input Descriptor for Check test
 * this module collect all methods for basical test
 */
-import {integer, float, cap, email, genericPhoneNumber, italianMobilePhone} from '@tspower/regexpr';
+import {integer, float, cap, email, genericPhoneNumber, italianMobilePhone, negative} from '@tspower/regexpr';
 
 
 /**
@@ -57,7 +57,7 @@ export  function isFloat(value: any):boolean {
 export function isNegative(value: any):boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(float)) return true;
+        if (value.match(negative)) return true;
         return false;
     }
     return false;
