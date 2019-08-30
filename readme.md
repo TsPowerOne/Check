@@ -1,6 +1,5 @@
 # Check        ![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
 
-![alt text](https://ppbusinessproject.visualstudio.com/TSPowerOne/_apis/build/status/TsPowerOne.Check?branchName=master)
 
 > Simple Collection of checks functions!
 
