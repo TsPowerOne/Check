@@ -4,7 +4,7 @@
 > Simple Collection of checks functions!
 
 
-## Methods Available
+## Available Methods
 1 - isEmpty(value: any): boolean;  
 2 - notEmpty(value: any): boolean;  
 3 - isInteger(value: any): boolean;  
@@ -14,6 +14,10 @@
 7 - isEmail(value: any): boolean;  
 8 - isGenericPhoneNumber(value: any): boolean;  
 9 - isItalianMobilePhoneNumber(value: any): boolean;
+
+## Documentation
+Detailed documentation [here](https://tspowerone.github.io/Check/)        
+
 
 ## Install
 `npm i @tspower/check`

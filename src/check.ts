@@ -6,111 +6,104 @@ import {integer, float, cap, email, genericPhoneNumber, italianMobilePhone, nega
 
 
 /**
-* isEmpty
+* Return if value is undefined, null or empty
 * @param value  value to test
-* @return true or false
+* @return true or false matching a regular expression in _regExpr module
 */
 export  function isEmpty(value: any): boolean {
     if (value != null && value != undefined && value.length != 0) return false;
     return true;
 }
 /**
-* notEmpty
+* invert Empty function
 * @param value  value to test
-* @return true or false
+* @return true or false matching a regular expression in _regExpr module
 */
 export function notEmpty(value: any): boolean {
     if (isEmpty(value)) return false;
     return true;
 }
 /**
-* isInteger
+* Return if value is an integer
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function isInteger(value: any) {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(integer)) return true;
-        return false;
+        return integer.test(value);
     }
     return false;
 }
 /**
-* isFloat
+* return if value is a float
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export  function isFloat(value: any):boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(float)) return true;
-        return false;
+        return float.test(value);
     }
     return false;
 }
 /**
-* isNegative
+* Return if value is negative
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function isNegative(value: any):boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(negative)) return true;
-        return false;
+        return negative.test(value);
     }
     return false;
 }
 /**
-* isItalianZipCode
+* Return if value is an Italian Zip Code
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function isItalianZipCode(value: any):boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(cap)) return true;
-        return false;
+        return cap.test(value);
     }
     return false;
 }
 /**
-* isEmail
+* return if value is an Email
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function isEmail(value: any): boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(email)) return true;
-        return false;
+        return email.test(value);
     }
     return false;
 }
 /**
-* isGenericPhoneNumber
+* return if value is a Generic Phone Number
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function isGenericPhoneNumber(value: any):boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(genericPhoneNumber)) return true;
-        return false;
+        return genericPhoneNumber.test(value);
     }
     return false;
 }
 /**
-* isGenericPhoneNumber
+* return if value is an Italian Mobile Phone Number
 * @param value  value to test
 * @return true or false matching a regular expression in _regExpr module
 */
 export function  isItalianMobilePhoneNumber(value: any): boolean {
     if (notEmpty(value)) {
         if (typeof value !== 'string') value = value.toString();
-        if (value.match(italianMobilePhone)) return true;
-        return false;
+        return italianMobilePhone.test(value);
     }
     return false;
 }
